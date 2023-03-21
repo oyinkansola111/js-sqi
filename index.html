@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
-    <h3 class="ip">hello world</h3>
-    <script src="script.js"></script>
+<body class="bod">
+    <section>
+        <div class="corn">
+            <div class="bar">
+                <span class="material-symbols-outlined ">menu</span>
+                <h2 class="soa">standard</h2>
+                <span class="material-symbols-outlined open ">open_in_new</span>
+                <span class=" open2 material-symbols-outlined">history</span>
+            </div>
+            <div id="input" class="put">
+                0
+            </div>
+            <div class="dope">
+                <h6>MC</h6>
+                <h6>MR</h6>
+                <h6>M+</h6>
+                <h6>M-</h6>
+                <h6>MS</h6>
+                <h6>M^</h6>
+            </div>
+            <div class="bumm">
+                <button class="butt">%</button>
+                <button onclick="ten()" class="butt">CE</button>
+                <button onclick="ten()" class="butt">C</button>
+                <button class="butt"><span class="material-symbols-outlined">backspace</span></button>
+                
+            </div>
+            <div class="bumm">
+                <button class="butt">1/​x</button>
+                <button class="butt">x²</button>
+                <button class="butt"> √x</button>
+                <button class="butt">÷</button>
+            </div>
+            <div class="bumm">
+                <button onclick="one(7)" class="butt">7</button>
+                <button onclick="one(8)" class="butt">8</button>
+                <button onclick="one(9)" class="butt">9</button>
+                <button class="butt">x</button>
+            </div>
+            <div class="bumm">
+                <button onclick="one(4)" class="butt">4</button>
+                <button onclick="one(5)" class="butt">5</button>
+                <button onclick="one(6)" class="butt">6</button>
+                <button class="butt">-</button>
+            </div>
+            <div class="bumm">
+                <button onclick="one(1)" class="butt">1</button>
+                <button onclick="one(2)" class="butt">2</button>
+                <button onclick="one(3)" class="butt">3</button>
+                <button onclick="plu()" class="butt">+</button>
+            </div>
+            <div class="bumm">
+                <button class="butt"> +/- </button>
+                <button onclick="zero()" class="butt">0</button>
+                <button class="butt">.</button>
+                <button class="butt1">=</button>
+            </div>
+            
+
+        </div>
+    </section>
+    
 </body>
 </html>
+<script src="script.js"></script>

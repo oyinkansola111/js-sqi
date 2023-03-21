@@ -1,1 +1,5 @@
-console.log("hello world");
+function one(val){
+    let diplay = document.getElementById("input")
+    diplay.innerHTML += val
+ 
+ }
